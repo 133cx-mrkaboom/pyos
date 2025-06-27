@@ -4,22 +4,27 @@
 # PLZ use
 # Thank You For Using
 
+
+#PYOS Help GUIDE
+
+#exit - exits - useage: exit
+#port - sets the port - useage: port <port>
+#dir - sets the directory - useage: dir <directory>
+
+
+
+
+
+
 import sys
-import modules.help
+from modules import term # imports the terminal funcution
+
 
 print('''
 
 
- ________  ___    ___ ________  ________      
-|\   __  \|\  \  /  /|\   __  \|\   ____\     
-\ \  \|\  \ \  \/  / | \  \|\  \ \  \___|_    
- \ \   ____\ \    / / \ \  \\\  \ \_____  \   
-  \ \  \___|\/  /  /   \ \  \\\  \|____|\  \  
-   \ \__\ __/  / /      \ \_______\____\_\  \ 
-    \|__||\___/ /        \|_______|\_________\
-         \|___|/                  \|_________|
-                                              
-                                              
+PYOS
+
 2025 KADEN LEE
 
 
@@ -30,12 +35,7 @@ Version ALPHA 0.0.1
 
 
 
-# exit commands
 
-def ext(message):
-    print("Shutdown Message: " + message) #shutdown message
-    print("Shuting Down") #shuting down
-    sys.exit() # exiting
 
 
 # Run Command
@@ -43,6 +43,12 @@ def ext(message):
 def rn():
     print("Running")
 
-    # code I need to put here after I make code
-    
 
+
+
+# Startup
+
+rn()
+
+while True:
+    term.main()
