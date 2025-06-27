@@ -18,15 +18,15 @@ It is really simple to use.
 1) Make sure you have git and python installed.
 
 2) Clone PYOS with:
-'''
+`
 git clone https://github.com/133cx-mrkaboom/pyos.git
-'''
+`
 
 3) Change into the directory with:
 Unix (macos)/ Linux / Windows:
-'''
+`
 cd pyos
-'''
+`
 4) Make a python venv and enter (ask AI if you dont know how)
 
 5) Run main.py with python!
